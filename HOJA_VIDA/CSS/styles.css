@@ -1,0 +1,473 @@
+body {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Escudo{
+  width: 30%;
+  
+}
+
+.col-lg{
+  text-align: center;
+}
+
+#boton{
+  width: 60%;
+  position: relative;
+  left: 10%;
+}
+
+.p{
+  font-size: 12px;
+  position: relative;
+  top: 12px;
+}
+
+.entidad{
+  position: relative;
+  top: 10px;
+}
+
+.subcontainer{
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px black;
+  
+}
+
+/*INDICADORES*/
+
+.etiqueta{
+  margin-top: 5%;
+}
+
+.indicador {
+  display: flex;
+  align-items: center;
+}
+
+.indicador h2 {
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indicador p {
+  color: white;
+  border-radius: 30px;
+  background-color: black;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+/*INFORMACION 1*/
+
+.info1{
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+  margin-top: 5%;
+  padding: 0px 10px;
+}
+
+.info2{
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+
+  padding: 0px 10px;
+}
+
+.ap1,
+.ap2,
+.name{
+  border: 1px solid black;
+  width: 10%;
+  font-size: 5px;
+  justify-content: end;
+  padding-bottom: 40px;
+}
+
+
+.sex,
+.nac,
+.libreta{
+display: flex;
+align-items: center;
+border: 1px solid black;
+width: 10%;
+font-size: 5px;
+padding-bottom: 40px;
+}
+
+.dire,
+.fecha{
+  align-items: center;
+  border: 1px solid black;
+  width: 10%;
+  font-size: 5px;
+  padding-bottom: 10px;
+
+}
+
+.nac-content {
+display: flex;
+
+}
+
+.nac h6 {
+margin: 0;
+}
+
+.nac-content #pais{
+padding-right: 50px;
+}
+
+.doc,
+.sex,
+.nac {
+display: flex;
+align-items: center;
+border: 1px solid black;
+width: 10%;
+font-size: 5px;
+padding: 0px;
+padding-bottom: 10px;
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+
+.input-container #cc,
+#ce,
+#pas,
+#n,
+#femenino,
+#masculino,
+#colo,
+#extra{
+margin-left: 10px;
+}
+
+.input-container h6{
+padding-left: 10px;
+}
+
+#n {
+border: none;
+border-bottom: 1px solid black;
+width: 90px;
+margin: 0px;
+}
+
+.input-container{
+display: flex;
+position: relative;
+top: 5px;
+gap: 5px;
+left: 20px;
+}
+
+.nac-content h6 {
+margin: 0; 
+padding: 5px 0; 
+}
+
+#pais {
+margin: 0px 130px;
+
+}
+
+.nac{
+font-size: 20px; 
+margin-top: 30px;
+}
+.input-container-n {
+display: flex;
+position: relative;
+top: 5px;
+gap: 5px;
+right: 50px;
+}
+
+.input-container-n div {
+display: flex;
+align-items: center; 
+}
+
+.input-container-n h6{
+margin-right: 10px; 
+white-space: nowrap;
+}
+
+.input-container-n #n{
+margin-left: 10px;
+}
+.info1{
+background-color: rgb(242,250,252);
+}
+
+.libreta {
+font-size: 20px; 
+margin-top: 30px; 
+}
+
+.input-container-l {
+display: flex;
+position: relative;
+top: 30px;
+gap: 80px; 
+
+}
+
+.input-container-l div {
+display: flex;
+align-items: center; 
+}
+
+.input-container-l h6 {
+margin-right: 10px; 
+white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+}
+
+
+.input-group {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  gap: 20px; /* Ajuste de espacio entre el h6 y el input */
+  padding-bottom: 30px;
+}
+
+.input-group h6 {
+  margin: 0; /* Remueve márgenes predeterminados para alineación exacta */
+  white-space: nowrap; /* Evita que el título se divida en varias líneas */
+}
+
+.input-group input {
+  flex-grow: 1; /* Permite que el input ocupe el espacio restante */
+  width: 100px; /* Especifica un ancho fijo si es necesario */
+  height: 20px; /* Especifica un alto fijo */
+  font-size: 15px; /* Tamaño de fuente para los inputs */
+}
+
+
+/*-- 2 FORMACION ACADEMICA --*/
+
+.table-edu {
+  width: 100%;
+  border-collapse: collapse;
+}
+.th, .td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+input[type="text"] {
+  margin: 4px; /* Añade un margen alrededor de cada input */
+}
+
+.edu-su b{
+  padding: 10px;
+}
+/* segunda tabla*/
+.edu-t, .vertical-span, .tdd {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+.vertical-span {
+  vertical-align: middle;
+}
+.split-cell {
+  display: flex; /* Usamos flexbox para alinear los elementos internamente */
+  justify-content: center; /* Centra horizontalmente los contenidos dentro de la celda */
+  position: relative; /* Posicionamiento relativo para el contenedor */
+}
+.split-cell::after {
+  content: ''; /* Contenido vacío para el pseudo-elemento */
+  position: absolute; /* Posición absoluta para la línea vertical */
+  left: 50%; /* Posicionamiento al 50% de la celda para dividirla por la mitad */
+  top: 0; /* Desde el top de la celda */
+  bottom: 0; /* Hasta el fondo de la celda */
+  width: 1px; /* Ancho de la línea vertical */
+  background-color: black; /* Color de la línea vertical */
+}
+.split-cell span {
+  flex: 1; /* Cada span ocupa un espacio flexible dentro de la celda */
+  text-align: center; /* Texto centrado dentro de su contenedor */
+}
+/* ultima tabla*/
+.table-habla{
+  width: 80%; /* Ajusta el ancho de la tabla al 80% del contenedor */
+  margin: 20px auto; /* Centra la tabla horizontalmente y añade margen superior e inferior */
+  border-collapse: collapse; /* Elimina el espacio entre las celdas */
+}
+.th1, .td1 {
+  border: 1px solid black; /* Añade bordes a las celdas */
+  padding: 8px; /* Añade relleno dentro de las celdas */
+  text-align: center; /* Centra el texto dentro de las celdas */
+}
+.vertical-divider {
+  border-right: 2px solid black; /* Añade una línea vertical más gruesa */
+}
+.th1 {
+  background-color: #f2f2f2; /* Color de fondo para los encabezados */
+} 
+
+/*-- EMCABEZADO --*/
+.emcabezado{
+margin-top: 60px;
+}
+
+/*---3 EXPERIENCIA LABORAL */
+
+.expe-p{
+  border: 1px solid black;
+}
+.empleo{
+  border: 1px solid black;
+}
+.entidad{
+  border: 1px solid black;
+  position: relative;
+  top: 0px;
+}
+.publica{
+  border: 1px solid black;
+}
+.privada{
+  border: 1px solid black;
+}
+.pais{
+  border: 1px solid black;
+}
+.depart{
+  border: 1px solid black;
+}
+.muni{
+  border: 1px solid black;
+}
+.corre{
+  border: 1px solid black;
+}
+.tlf{
+  border: 1px solid black;
+}
+.fech-ingre{
+  border: 1px solid black ;
+}
+.fech-reti{
+  border: 1px solid black;
+}
+.cargo{
+  border: 1px solid black;
+}
+.depen{
+  border: 1px solid black;
+}
+.direccion{
+  border: 1px solid black;
+}
+
+
+
+
+/*----4 TIEMPO TOTAL DE EXPERIENCIA-------*/
+table {
+  width: 80%; /* Ajusta según necesidades */
+  border-collapse: collapse; /* Esencial para bordes compartidos */
+  margin: 20px auto; /* Centra la tabla horizontalmente con espacio alrededor */
+  border: 1px solid black; /* Borde externo de la tabla */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+th, td {
+  padding: 10px 15px; /* Ajusta el padding para mejor visualización */
+  text-align: center; /* Alineación central para todo el texto en la tabla */
+}
+
+th {
+  background-color: rgb(217,241,246); /* Color de fondo para los encabezados */
+  color: black; /* Color de texto para los encabezados */
+}
+
+tbody td {
+  font-size: 14px; /* Tamaño de fuente para el contenido de las celdas */
+}
+
+thead th {
+  font-size: 16px; /* Tamaño de fuente más grande para los encabezados */
+}
+
+/* ----5 firma de servidor---*/
+.firma {
+  text-align: center; /* Centra todo el contenido dentro de .firma */
+}
+
+#n input {
+  display: block; /* Hace que el input ocupe su propia línea */
+  margin: 0 auto; /* Centra el input horizontalmente */
+  width: 50%; /* O un ancho específico según tus necesidades */
+}
+
+.textarea{
+  padding-bottom: 50px;
+}
+#textarea{
+  resize: none;
+  max-width: 100%;
+  position: relative;
+  top: 10px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.campo{
+  border: 1px solid black;
+  height:150px;
+}
+
+#hr{
+  width: 500px;
+}
+#hr1{
+  width: 500px;
+  position: relative;
+  left: 260px;
+  bottom: 20px;
+}
+
+
+.ciudad-fecha{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 5px;
+}
+
+#hr2{
+  width: 450px;
+  position: relative;
+  top: 8px;
+}
+
+/*footer*/
+footer{
+  padding-top: 10px;
+  font-weight: bold;
+}
